@@ -10,10 +10,14 @@
 
 <script>
 export default {
-    name: 'button'
+    name: 'button',
+    props: ['text']
 }
 </script>
 
 <style lang="scss" scoped>
-
+    *{
+        padding: 0;
+        margin: 0;
+    }
 </style>
